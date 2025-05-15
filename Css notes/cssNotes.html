@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> CSS notes</title>
+    <link rel="stylesheet" href="cssNotes.css">
+</head>
+<body>
+  <script src="cssNotes.js"> </script>
+
+<div class="mainStage">
+  <h1 class="bor"> CSS notes </h1>
+
+
+<div id="top" class="bor"> 
+
+  <div id="topLeft" class="bor">
+    <div class="box fillBox">
+      <p> Hello world </p>
+    </div>
+  </div>
+
+  <div id="topMid" class="bor">  
+
+  <div class="midBox box"> 
+    <h3> An introduction to CSS </h3>
+    <p> Customising a HTML/ document page requires the use of the programing language CSS (Cascading style sheets) so we can <mark> change how the document is displayed </mark>  to the user. </p>
+    <p> To implement your CSS file in a certain html file, we use the link element which has the self closing tags (as in we do not need to use /link to close the element), within the head element. <br> 
+     We follow with the attribute rel(relationship)="stylesheet" and then use the href attribute to define the location. </p>
+    <p> For example for this document I have used 'link rel="stylesheet"  href="cssNotes.css"' </p>
+    <p> Also we can use the 'style' tag within the element to change it individually within the HTML file.  </p>
+    <p> As I will discover forming this note webpage, there is a lot that you can do to change the style within different elemnts of the webpage.</p>
+  </div>
+
+  <div class="midBox box">
+    <h3> Using CSS </h3>
+    <p> Once you want to start customising your html page the rules are pretty simple. <br> You first select what element, class or ID you want to use. Then open and close with { } putting all the context within the curly brackets.  </p>
+    <p> When targetting the different catergories there is a few rules to follow as seen bellow; </p>
+    <ul>
+      <li> Targetting general elements such as P or h1, you define them as they are before the brackets. 'p {}'</li>
+      <li> A class needs a full stop '.' before the class name. E.g. '.class{}'</li>
+      <li> An ID shares the same princple with a class except it needs a '#' before it. Like so, '#id {}'</li>
+    </ul>
+  </div>
+
+  <div class="midBox box">
+    <h3> Color </h3>
+    <p> We can change the color in certain ways, such as; </p>
+    <ul>
+      <li> background-color: - The background color of divs for example </li>
+      <li> color: - Changes the text color </li>
+    </ul>
+    <p> You can select a color by..</p>
+    <ol>
+      <li> Typing the name of it, e.g. 'white' and 'black'</li>
+      <li> Using the hex color code, e.g. '#ffffff' (white) and  '#000000' (black)</li>
+      <li> Typing in the RGB code, e.g 'rgb(255, 255, 255) - whtie
+        <ul>
+          <li> Each number representing a certian value of red, green and blue</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+  <!-- 
+  Blank new box: 
+  <div class="box">
+    <h3> Header </h3>
+    <p> Text </p>
+  </div>
+  -->
+  </div>
+  
+  <div id="topRight" class="bor">
+    <div class="box fillBox">
+      <h1> Hello world</h1>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>

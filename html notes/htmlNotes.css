@@ -1,0 +1,50 @@
+/*---ELEMENTS---*/
+
+body {
+    background-color: rgb(211, 211, 211);
+    
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+/*---ID'S---*/
+
+#skeletonIMG {
+    height: 25%;
+    width: 25%;
+}
+
+
+
+
+
+/*---CLASSES---*/
+
+.notes {
+    background-color: whitesmoke;
+    text-align: left;
+    margin: 2% 5% 0 5%;
+    padding: 0 2% 1% 2%;
+    border: solid 2px black;
+}
+
+.header {
+    text-align: center;
+}
+
+.box {
+    border: solid 1px black;
+    background-color: rgb(195, 227, 255) ;
+    margin: 1% 0 1% 0;
+    padding: 0 1% 1% 1%;
+}
+
+.subBox {
+    background-color: rgb(247, 251, 255);
+    margin: 0 20% 2% 2%;
+    padding: 1.5% 1% 1.5% 1%;
+    border: dotted 1px black;
+    
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Welcome to HTML Notes</title>
+    <link rel="stylesheet" href="htmlNotes.css">
+</head>
+<body>
+  <script src="htmlNotes.js"> </script>
+  <!-- 
+    Use class="___" for:
+     box: a new bit of information to add in
+     subBox: for group of information imbedded in a box
+  -->
+
+  <div class="notes">
+
+  <h1 class="header">  Welcome to HTML notes</h1>
+
+    <div class="box">
+      <h3> Headers </h3>
+      <p> You can create them from h1 to h6, 1 being the largest size, 6 being the lowest</p>
+    </div>
+
+    <div class="box">
+      <h3> P elemetns </h3>
+      <p> P elements are the common go to for adding any text.</p>
+      <p> If you want to break up a certain piece of text you can do so by using: <br/> "br/" <br/> But with angle brackets. This is classed as an empty tag as it does not require and opening and closing tag. </p>
+      <div class="subBox">
+        <li> You can use "em" "/em" within a p element to make the text emphasized (Italiac) <br/> <em> Like this </em></li>
+      </div>
+    </div>
+
+    <div class="box">
+      <h3> Anchor tags </h3>
+      <p> Using an anchor "a" and "/a" tag we cana add links in like so</p>
+      <a href="https://www.youtube.com/"> YouTube </a>
+      <p> To make an achor tag useable in the opening part of the tag we use href="" to add in the link we want to tag in </p>
+      <p> When using a href, it is a type of attribute. They have two things in common, they contain extra information and go inside the opening tag </p>
+      <p> We can access local webpages by adding a / before the name of the file.</p>
+    </div>
+
+    <div class="box"> 
+      <h3> Images </h3>
+      <p> To add an image to a page we use the empty tag "img/" <br/> Using the attribute "src" we add the link that has the image we want to use.</p>
+      <img id="skeletonIMG" src="c:\Users\USER\Desktop\Mimo\html notes\Images\skeletonMeme.jpeg" />
+    </div>
+
+    <div class="box"> 
+      <h3> Buttons </h3>
+      <p> We create buttons by using the open and closing tags 'button'</p>
+      <button> </button>
+      <p> To add text within the button we put the text inbetween the open and closing tags with no marks</p>
+      <button> Login </button>
+      <p> We can then use java script to make the button interactive which will be covered in my java script note libary</p>
+    </div>
+
+    <div class="box">
+      <h3> Input element </h3>
+      <p> We use the empty tag input, the default is set to text </p>
+      <input />
+      <p> We can adjust this in many different ways using the 'type' value. See below 'type="password"' </p>
+      <input type="password" placeholder="password"/>
+      <p> We can also use the value placeholder to show the user what type of information is required in that certain box</p>
+      <input type="email" placeholder="@example.com"/>
+    </div>
+
+    <div class="box">
+      <h3> Divs </h3>
+      <p> Using the opening and closing tags 'div' we can group however many elements we want in one. This is extremely usefull to help organise your webpage. For example me using the div to split up this page to group different bits of information in a box rather than reading off a list of words.
+      </p>
+    </div>
+
+    <div class="box">
+      <h3> Lists </h3>
+      <p> Within what we class our list as each new item will feature the open adn closing tags of 'li'</p>
+      <p> We can create an ordered list which will display a numbered list of items using the open and clsoing tags 'ol' </p>
+      <ol> 
+        <li> One</li>
+        <li> Two </li>
+        <li> Three </li>
+      </ol>
+      <p> To generate a unordered list (a bullet point list) we use 'ul' </p>
+      <ul> 
+        <li> England </li>
+        <li> France </li>
+        <li> Spain </li>
+      </ul>
+    </div>
+
+    <!-- 
+      Blank new box to copy: 
+      <div class="box">
+        <h3> Blank </h3>
+        <p> </p>
+      </div>
+    -->
+  </div>
+</body>
+</html>
